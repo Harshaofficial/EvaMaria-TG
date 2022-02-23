@@ -46,7 +46,8 @@ async def start(client, message):
             InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
-            InlineKeyboardButton('About Meh 📬', callback_data='about')
+            InlineKeyboardButton('About Meh 📬', callback_data='about'), 
+            InlineKeyboardButton('Owner', url='https://t.me/mukunda3146')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -86,7 +87,8 @@ async def start(client, message):
             InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
-            InlineKeyboardButton('About Meh 📬', callback_data='about')
+            InlineKeyboardButton('About Meh 📬', callback_data='about'), 
+            InlineKeyboardButton('Owner', url='https://t.me/mukunda3146')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
