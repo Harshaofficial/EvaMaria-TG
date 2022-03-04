@@ -129,6 +129,8 @@ async def start(client, message):
                     [ 
                          InlineKeyboardButton('𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url='https://t.me/Mbbsmoviesoffical'),
                          InlineKeyboardButton('𝗚𝗥𝗢𝗨𝗣', url='https://t.me/mbbsDiss') 
+                    ]
+                    ]
                 await client.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
