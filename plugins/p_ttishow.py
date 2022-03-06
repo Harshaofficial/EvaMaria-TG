@@ -52,7 +52,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+                temp.MELCOW['welcome'] = await message.reply(f"<b>Hello , {u.mention}, Welcome to {message.chat.title} Movies requesting Group  \nJoin @Mbbsmoviesoffical</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
@@ -66,7 +66,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Support', url=f'https://t.me/LinkZz_MBBS')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
