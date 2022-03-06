@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """<b>Hello Nanba {}👋
-My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 Developer : <a href='https://t.me/mukunda3146'>≡ 𝗠𝗨𝗞𝗨𝗡𝗗𝗔 ≡</a></b>"""
+    START_TXT = """<b>Hello Nanba/Nabni {}👋
+My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For @LinkZz_MBBS,\n\n👨‍💻 Developer : <a href='https://t.me/mukunda3146'>≡ 𝗠𝗨𝗞𝗨𝗡𝗗𝗔 ≡</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -11,7 +11,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
 ✯ 𝙳𝙸𝚂𝙲𝚄𝚂𝚂𝙸𝙾𝙽: <a href='https://t.me/mbbsDiss'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-✯ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href='https://t.me/Mbbsmoviesoffical'>𝚃𝙾𝚄𝙲𝙷 𝙷𝙴𝚁𝙴</a>"""
+✯ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href='https://t.me/Mbbsmoviesoffical'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Source - @LinkZz_MBBS  
 
@@ -22,7 +22,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. 𝗠𝗜𝗖𝗥𝗢𝗕𝗘𝗥𝗧 𝗩1.0 should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -37,7 +37,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. 𝗠𝗜𝗖𝗥𝗢𝗕𝗘𝗥𝗧 𝗩1.0 supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
