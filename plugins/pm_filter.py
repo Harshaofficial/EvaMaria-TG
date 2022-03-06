@@ -404,6 +404,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
+            InlineKeyboardButton('👤Owner', url='https://t.me/mukunda3146')
+            ],[
+            InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -517,7 +520,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
-            InlineKeyboardButton('♻️REFRESH', callback_data='rfrsh')
+            InlineKeyboardButton('♻️Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -536,7 +539,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
-            InlineKeyboardButton('♻️', callback_data='rfrsh')
+            InlineKeyboardButton('♻️Refresh', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
