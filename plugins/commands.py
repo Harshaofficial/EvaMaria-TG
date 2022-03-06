@@ -41,13 +41,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about'), 
-            InlineKeyboardButton('Owner', url='https://t.me/mukunda3146')
+            InlineKeyboardButton('👤Owner', url='https://t.me/mukunda3146')
+            ],[
+            InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -75,20 +77,22 @@ async def start(client, message):
             btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Main Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about'), 
-            InlineKeyboardButton('Owner', url='https://t.me/mukunda3146')
+            InlineKeyboardButton('👤Owner', url='https://t.me/mukunda3146')
+            ],[
+            InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
