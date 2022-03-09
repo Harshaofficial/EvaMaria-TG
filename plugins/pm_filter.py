@@ -398,13 +398,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
-            ],[
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
             InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
-            ],[
-            InlineKeyboardButton('About Meh 📬', callback_data='about')
-            ]]
+        ], [
+            InlineKeyboardButton('About Meh 📬', callback_data='about'), 
+            InlineKeyboardButton('👤Owner', url='https://t.me/mukunda3146')
+        ], [
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
