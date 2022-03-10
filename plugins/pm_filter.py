@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical'),
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical1'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
         ], [
             InlineKeyboardButton('About Meh 📬', callback_data='about'), 
@@ -644,7 +644,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"**🎬Name** : ​{search}\n\n**Click Your Choice and Start The Bot**\n\n**🔗 Join : @Mbbsmoviesoffical**"
+        cap = f"**🎬Name** : ​{search}\n\n**Click Your Choice and Start The Bot**\n\n**🔗 Join : @Mbbsmoviesoffical1**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
