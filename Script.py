@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>Hello Nanba/Nabni {}👋
 My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies in Group as well as the Personal chat \n for Group just add me to your group and Enjoy 
-\n𝗢𝘁𝗵𝗲𝗿 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 👇 \nAutofilter\nManual filter\nBatchmode(file store)\nUser info\nimbd\n\n\n👨‍💻 Developer : <a href='https://t.me/LinkZz_MBBS'>🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 𝗧𝗲𝗮𝗺</a></b>"""
+\n𝗢𝘁𝗵𝗲𝗿 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 👇 \nAutofilter\nManual filter\nBatchmode(file store)\nUser info\nimbd\n\n👨‍💻 Developer : <a href='https://t.me/LinkZz_MBBS'>🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 𝗧𝗲𝗮𝗺</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -14,7 +14,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies in Group as well
 ✯ 𝙳𝙸𝚂𝙲𝚄𝚂𝚂𝙸𝙾𝙽: <a href='https://t.me/mbbsDiss'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 ✯ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href='https://t.me/Mbbsmoviesoffical'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Source - @LinkZz_MBBS  
+if u want like this bot contact us using this bot <a href='https://t.me/linkzzmbbsAdminbot'>LinkZz_MBBS Admin bot</a>
 
 <b>DEVS:</b>
 - <a href='https://t.me/LinkZz_MBBS'>🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 𝗧𝗲𝗮𝗺</a>"""
@@ -97,7 +97,8 @@ This module only works for my admins
 =>𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 =>𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 =>𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-=>𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+=>𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
+🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
