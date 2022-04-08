@@ -1,10 +1,11 @@
 class script(object):
     START_TXT = """<b>Hello Nanba/Nabni {}👋
-My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For @LinkZz_MBBS,\n\n👨‍💻 Developer : <a href='https://t.me/mukunda3146'>≡ 𝗠𝗨𝗞𝗨𝗡𝗗𝗔 ≡</a></b>"""
+My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies in Group as well as the Personal chat \n for Group just add me to your group and Enjoy 
+\n𝗢𝘁𝗵𝗲𝗿 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 👇 \nAutofilter\nManual filter\nBatchmode(file store)\nUser info\nimbd\n\n\n👨‍💻 Developer : <a href='https://t.me/LinkZz_MBBS'>🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 𝗧𝗲𝗮𝗺</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/mukunda3146'>≡ 𝗠𝗨𝗞𝗨𝗡𝗗𝗔 ≡</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/LinkZz_MBBS'>🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 𝗧𝗲𝗮𝗺</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -16,7 +17,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For @LinkZz_MBBS
 - Source - @LinkZz_MBBS  
 
 <b>DEVS:</b>
-- <a href='https://t.me/mukunda3146'>≡ 𝗠𝗨𝗞𝗨𝗡𝗗𝗔 ≡</a>"""
+- <a href='https://t.me/LinkZz_MBBS'>🌐𝗟𝗶𝗻𝗸𝗭𝘇_𝗠𝗕𝗕𝗦 𝗧𝗲𝗮𝗺</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
