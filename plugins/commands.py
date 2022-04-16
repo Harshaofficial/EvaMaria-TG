@@ -43,7 +43,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical1'),
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/+BBZZe9HKW0I3ZjM1'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about'), 
@@ -89,7 +89,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Mbbsmoviesoffical1'),
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/+BBZZe9HKW0I3ZjM1'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/mbbsDiss')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about'), 
@@ -229,7 +229,7 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [ 
-            InlineKeyboardButton('𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url='https://t.me/Mbbsmoviesoffical1'),
+            InlineKeyboardButton('𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url='https://t.me/+BBZZe9HKW0I3ZjM1'),
             InlineKeyboardButton('𝗚𝗥𝗢𝗨𝗣', url='https://t.me/mbbsDiss') 
         ]
         ]
